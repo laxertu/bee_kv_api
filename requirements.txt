@@ -1,0 +1,3 @@
+fastapi[all]
+uvicorn[standard]
+git+https://github.com/laxertu/bee_kv
