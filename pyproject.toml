@@ -1,0 +1,13 @@
+[project]
+name = "bee_kv_api"
+version = "1.0.0"
+description = "An exagonal architecture exercise"
+authors = [
+    {name = "Luca Stretti", email = "laxertu@gmail.com"}
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+dependencies = [
+  "git+https://github.com/laxertu/bee_kv",
+]
