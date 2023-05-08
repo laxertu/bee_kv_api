@@ -5,9 +5,11 @@ description = "An exagonal architecture exercise"
 authors = [
     {name = "Luca Stretti", email = "laxertu@gmail.com"}
 ]
+dependencies = [
+  "bee_core @ git+https://github.com/laxertu/bee_core",
+  "bee_kv @ git+https://github.com/laxertu/bee_kv",
+]
+
 
 [build-system]
 requires = ["setuptools", "wheel"]
-dependencies = [
-  "git+https://github.com/laxertu/bee_kv",
-]
